@@ -1,0 +1,5 @@
+D:\mepowerlmay\WinLineNotifyTCP\WinLineNotifyTCP.Model\bin\Release\WinLineNotifyTCP.Model.dll
+D:\mepowerlmay\WinLineNotifyTCP\WinLineNotifyTCP.Model\bin\Release\WinLineNotifyTCP.Model.pdb
+D:\mepowerlmay\WinLineNotifyTCP\WinLineNotifyTCP.Model\obj\Release\WinLineNotifyTCP.Model.csproj.CoreCompileInputs.cache
+D:\mepowerlmay\WinLineNotifyTCP\WinLineNotifyTCP.Model\obj\Release\WinLineNotifyTCP.Model.dll
+D:\mepowerlmay\WinLineNotifyTCP\WinLineNotifyTCP.Model\obj\Release\WinLineNotifyTCP.Model.pdb
