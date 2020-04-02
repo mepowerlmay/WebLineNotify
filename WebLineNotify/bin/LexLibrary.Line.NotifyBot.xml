@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LexLibrary.Line.NotifyBot</name>
+    </assembly>
+    <members>
+        <member name="T:LexLibrary.Line.NotifyBot.LineNotifyBotApi">
+            <summary>
+            LineNotifyBotApi
+            </summary>
+        </member>
+        <member name="M:LexLibrary.Line.NotifyBot.LineNotifyBotApi.#ctor(LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting,System.Net.Http.IHttpClientFactory,Microsoft.Extensions.Logging.ILogger{LexLibrary.Line.NotifyBot.LineNotifyBotApi})">
+            <summary>
+            建構子
+            </summary>
+            <param name="setting"></param>
+            <param name="httpClientFactory"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:LexLibrary.Line.NotifyBot.LineNotifyBotApi.Notify(LexLibrary.Line.NotifyBot.Models.NotifyRequestDTO)">
+            <summary>
+            通知使用者
+            </summary>
+            <param name="requestDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LexLibrary.Line.NotifyBot.LineNotifyBotApi.Status(LexLibrary.Line.NotifyBot.Models.StatusRequestDTO)">
+            <summary>
+            查詢 Token 狀態
+            </summary>
+            <param name="requestDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LexLibrary.Line.NotifyBot.LineNotifyBotApi.Revoke(LexLibrary.Line.NotifyBot.Models.RevokeRequestDTO)">
+            <summary>
+            撤回 Token
+            </summary>
+            <param name="requestDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LexLibrary.Line.NotifyBot.LineNotifyBotApi.Token(LexLibrary.Line.NotifyBot.Models.TokenRequestDTO)">
+            <summary>
+            取得 Token
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LexLibrary.Line.NotifyBot.LineNotifyBotApi.GenerateAuthorizeUrl(System.String,System.String)">
+            <summary>
+            產生 Authorize Url
+            </summary>
+            <param name="callbackUrl"></param>
+            <param name="state"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LexLibrary.Line.NotifyBot.LineNotifyBotCollectionExtensions">
+            <summary>
+            IServiceCollection 擴充方法
+            </summary>
+        </member>
+        <member name="M:LexLibrary.Line.NotifyBot.LineNotifyBotCollectionExtensions.AddLineNotifyBot(Microsoft.Extensions.DependencyInjection.IServiceCollection,LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting)">
+            <summary>
+            將 LineNotifyBot 加入至專案
+            </summary>
+            <param name="services"></param>
+            <param name="setting"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LexLibrary.Line.NotifyBot.LineNotifyBotCollectionExtensions.AddLineNotifyBot(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Func{System.IServiceProvider,LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting})">
+            <summary>
+            將 LineNotifyBot 加入至專案
+            </summary>
+            <param name="services"></param>
+            <param name="setupAction"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting">
+            <summary>
+            LineNotifyBotSetting
+            </summary>
+        </member>
+        <member name="P:LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting.ClientID">
+            <summary>
+            ClientID
+            </summary>
+        </member>
+        <member name="P:LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting.ClientSecret">
+            <summary>
+            ClientSecret
+            </summary>
+        </member>
+        <member name="P:LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting.AuthorizeApi">
+            <summary>
+            AuthorizeApi 位址
+            </summary>
+        </member>
+        <member name="P:LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting.TokenApi">
+            <summary>
+            TokenApi 位址
+            </summary>
+        </member>
+        <member name="P:LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting.NotifyApi">
+            <summary>
+            NotifyApi 位址
+            </summary>
+        </member>
+        <member name="P:LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting.StatusApi">
+            <summary>
+            StatusApi 位址
+            </summary>
+        </member>
+        <member name="P:LexLibrary.Line.NotifyBot.Models.LineNotifyBotSetting.RevokeApi">
+            <summary>
+            RevokeApi 位址
+            </summary>
+        </member>
+    </members>
+</doc>

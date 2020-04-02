@@ -1,0 +1,16 @@
+C:\Users\alonso\Desktop\WebLineNotify\WebLineNotify.Model\bin\Release\WebLineNotify.Model.dll
+C:\Users\alonso\Desktop\WebLineNotify\WebLineNotify.Model\bin\Release\WebLineNotify.Model.pdb
+C:\Users\alonso\Desktop\WebLineNotify\WebLineNotify.Model\obj\Release\WebLineNotify.Model.csproj.CoreCompileInputs.cache
+C:\Users\alonso\Desktop\WebLineNotify\WebLineNotify.Model\obj\Release\WebLineNotify.Model.dll
+C:\Users\alonso\Desktop\WebLineNotify\WebLineNotify.Model\obj\Release\WebLineNotify.Model.pdb
+C:\Users\mepowerlmay\Desktop\WebLineNotify\WebLineNotify.Model\bin\Release\WebLineNotify.Model.dll
+C:\Users\mepowerlmay\Desktop\WebLineNotify\WebLineNotify.Model\bin\Release\WebLineNotify.Model.pdb
+C:\Users\mepowerlmay\Desktop\WebLineNotify\WebLineNotify.Model\obj\Release\WebLineNotify.Model.csprojAssemblyReference.cache
+C:\Users\mepowerlmay\Desktop\WebLineNotify\WebLineNotify.Model\obj\Release\WebLineNotify.Model.csproj.CoreCompileInputs.cache
+C:\Users\mepowerlmay\Desktop\WebLineNotify\WebLineNotify.Model\obj\Release\WebLineNotify.Model.dll
+C:\Users\mepowerlmay\Desktop\WebLineNotify\WebLineNotify.Model\obj\Release\WebLineNotify.Model.pdb
+D:\mepowerlmay\WebLineNotify\WebLineNotify.Model\bin\Release\WebLineNotify.Model.dll
+D:\mepowerlmay\WebLineNotify\WebLineNotify.Model\bin\Release\WebLineNotify.Model.pdb
+D:\mepowerlmay\WebLineNotify\WebLineNotify.Model\obj\Release\WebLineNotify.Model.csproj.CoreCompileInputs.cache
+D:\mepowerlmay\WebLineNotify\WebLineNotify.Model\obj\Release\WebLineNotify.Model.dll
+D:\mepowerlmay\WebLineNotify\WebLineNotify.Model\obj\Release\WebLineNotify.Model.pdb
